@@ -19,10 +19,10 @@
 					<h4><?= $product['name']?></h4>
                     <h5><?= $product['category']?></h5>
                     <h6><?= $product['description']?></h6>
-                    <h6>Stock:<?= $product['qty']?></h6>
+                    <h6>Quantity:<?= $product['qty']?></h6>
 					<p>
 						<a class="btn btn-warning" href="#" > Add to <i class="icon-shopping-cart"></i></a> 
-						<a class="btn" href="Views/page2.php">view details</a>
+						<a class="btn" href="/detail">view details</a>
 					</p>
 					<p><span class="price"><small>$</small><?= $product['price']?></span></p>				
 				</div>
