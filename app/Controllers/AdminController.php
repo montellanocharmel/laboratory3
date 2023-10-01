@@ -52,16 +52,16 @@ class AdminController extends BaseController
     
     }
 
-    public function logout()
-    {
-
-    }
-
     public function admin()  
     {
         $data = [
             'products' => $this->product->findAll()
         ];
         return view('indexad',$data);
+    }
+    
+    public function logout()
+    {
+
     }
 }

@@ -8,51 +8,10 @@
 	</div>
 </div>
 
-<!-- Login Block -->
-<div id="login" class="modal hide fade in" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="false" >
-  <div class="modal-header">
-	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">�</button>
-	<h3>Sell Anythings : Login Block</h3>
-  </div>
-  <div class="modal-body">
-	<form class="form-horizontal loginFrm">
-	  <div class="control-group">								
-		<input type="text" id="inputEmail" placeholder="Email">
-	  </div>
-	  <div class="control-group">
-		<input type="password" id="inputPassword" placeholder="Password">
-	  </div>
-	  <div class="control-group">
-		<label class="checkbox">
-		<input type="checkbox"> Remember me
-		</label>
-	  </div>
-	</form>		
-	<button type="submit" class="btn btn-success">Sign in</button>
-	<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-  </div>
-</div>
-
 <div class="navbar">
 <div class="navbar-inner">
 	<a class="brand" href="index.php"><img src="themes/images/new_logo.png" alt="Bootsshop"></a>
-	<div class="nav-collapse">
-		<ul id="topMenu" class="nav pull-right">
-		 <li class="">
-		 <form class="form-inline navbar-search" method="post" action="products.php" style="padding-top:5px;">
-			<select class="span3" style="padding:11px 4px; height:auto">
-				<option>All</option>
-				<option>Clothes </option>
-				<option>Women's Attire </option>
-				<option>Men's Attire </option>
-				<option>Kids Attire </option>
-			</select> 
-			<input class="span4" type="text" placeholder="eg. T-shirt" style="padding:11px 4px;">
-			<button type="submit" class="btn btn-warning btn-large" style="margin-top:0"> GO </button>
-		</form>
-		</li>
-		</ul>
-	</div>
+	<div class="nav-collapse"></div>
 	<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>

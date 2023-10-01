@@ -2,8 +2,7 @@
 <body>
     <?= $this->include('/incad/header') ?>  
     <?= $this->include('/incad/products') ?>  
-
-    
+  
     <!--  javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
