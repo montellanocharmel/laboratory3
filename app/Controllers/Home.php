@@ -10,9 +10,11 @@ class Home extends BaseController
         $this->product = new \App\Models\ProductModel();
     }
 
-    public function login()
+    public function signin()
     {
-
+        {
+            return view('signin');
+        }
     }
 
     public function detail()

@@ -10,7 +10,6 @@
 	<link rel="stylesheet/less" type="text/css" href="<?= base_url() ?>themes/less/bootstrap.less">
   
 	<script src="themes/js/less/less.js" type="text/javascript"></script>
-
 	<!-- favicon-icons -->
     <link rel="shortcut icon" href="<?= base_url() ?>themes/images/favicon.ico">
   </head>

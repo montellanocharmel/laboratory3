@@ -3,7 +3,7 @@
 <div class="container">
 <div class="row">
 	<div class="offset6 span6 right-align loginArea">
-		<a href="/login"><span class="btn btn-mini btn-success"> LOGIN  </span></a> 
+		<a href="/signin"><span class="btn btn-mini btn-success"> LOGIN  </span></a> 
 		<a href="checkout.php"><span class="btn btn-mini btn-danger"> Register </span></a> 
 	</div>
 </div>
