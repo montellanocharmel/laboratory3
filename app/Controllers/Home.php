@@ -9,6 +9,12 @@ class Home extends BaseController
     {
         $this->product = new \App\Models\ProductModel();
     }
+
+    public function login()
+    {
+
+    }
+
     public function detail()
     {
         $data = [

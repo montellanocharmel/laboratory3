@@ -1,7 +1,7 @@
-<?= $this->include('admin/inc/top') ?>
+<?= $this->include('/incad/top') ?>
 <body>
-    <?= $this->include('admin/inc/header') ?>  
-    <?= $this->include('admin/inc/products') ?>  
+    <?= $this->include('/incad/header') ?>  
+    <?= $this->include('/incad/products') ?>  
 
     
     <!--  javascript

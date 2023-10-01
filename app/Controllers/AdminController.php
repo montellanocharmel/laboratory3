@@ -23,7 +23,7 @@ class AdminController extends BaseController
             'products' => $this->product->findAll(),
             'product' => $this->product->where('id', $id)->first(),
         ];
-        return view('admin', $data);
+        return view('indexad', $data);
     }
     
     
@@ -43,7 +43,7 @@ class AdminController extends BaseController
         }else{
             $this->product->save($data);
         }  
-        return redirect()->to('admin');
+        return redirect()->to('/admin');
     }
 
     public function product($product)
@@ -52,12 +52,16 @@ class AdminController extends BaseController
     
     }
 
+    public function logout()
+    {
+
+    }
 
     public function admin()  
     {
         $data = [
             'products' => $this->product->findAll()
         ];
-        return view('/admin/index',$data);
+        return view('indexad',$data);
     }
 }

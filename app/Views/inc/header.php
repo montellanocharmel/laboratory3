@@ -3,9 +3,8 @@
 <div class="container">
 <div class="row">
 	<div class="offset6 span6 right-align loginArea">
-		<a href="#login" role="button" data-toggle="modal"><span class="btn btn-mini"> Login  </span></a> 
-		<a href="register.php"><span class="btn btn-mini btn-success"> Register  </span></a> 
-		<a href="checkout.php"><span class="btn btn-mini btn-danger"> Cart [2] </span></a> 
+		<a href="/login"><span class="btn btn-mini btn-success"> LOGIN  </span></a> 
+		<a href="checkout.php"><span class="btn btn-mini btn-danger"> Register </span></a> 
 	</div>
 </div>
 
