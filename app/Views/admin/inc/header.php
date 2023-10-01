@@ -5,7 +5,6 @@
 	<div class="offset6 span6 right-align loginArea">
 		<a href="#login" role="button" data-toggle="modal"><span class="btn btn-mini"> Login  </span></a> 
 		<a href="register.php"><span class="btn btn-mini btn-success"> Register  </span></a> 
-		<a href="checkout.php"><span class="btn btn-mini btn-danger"> Cart [2] </span></a> 
 	</div>
 </div>
 
@@ -18,7 +17,7 @@
   <div class="modal-body">
 	<form class="form-horizontal loginFrm">
 	  <div class="control-group">								
-		<input type="text" id="inputEmail" placeholder="Email">
+		<inphpput type="text" id="inputEmail" placeholder="Email">
 	  </div>
 	  <div class="control-group">
 		<input type="password" id="inputPassword" placeholder="Password">
@@ -37,20 +36,14 @@
 <div class="navbar">
 <div class="navbar-inner">
 	<a class="brand" href="index.php"><img src="themes/images/new_logo.png" alt="Bootsshop"></a>
+    <h1>Dashboard</h1>
 	<div class="nav-collapse">
 		<ul id="topMenu" class="nav pull-right">
 		 <li class="">
 		 <form class="form-inline navbar-search" method="post" action="products.php" style="padding-top:5px;">
-			<select class="span3" style="padding:11px 4px; height:auto">
-				<option>All</option>
-				<option>Clothes </option>
-				<option>Women's Attire </option>
-				<option>Men's Attire </option>
-				<option>Kids Attire </option>
-			</select> 
-			<input class="span4" type="text" placeholder="eg. T-shirt" style="padding:11px 4px;">
-			<button type="submit" class="btn btn-warning btn-large" style="margin-top:0"> GO </button>
+
 		</form>
+        
 		</li>
 		</ul>
 	</div>

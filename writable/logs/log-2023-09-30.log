@@ -95,3 +95,35 @@ in APPPATH\Views\inc\details.php on line 19.
 12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
 14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 16:16:36 --> Undefined property: App\Controllers\AdminController::$product
+in APPPATH\Controllers\AdminController.php on line 12.
+ 1 APPPATH\Controllers\AdminController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$product', 'C:\\laragon\\www\\laboratory3\\app\\Controllers\\AdminController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->admin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 16:22:28 --> Undefined property: App\Controllers\AdminController::$product
+in APPPATH\Controllers\AdminController.php on line 12.
+ 1 APPPATH\Controllers\AdminController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$product', 'C:\\laragon\\www\\laboratory3\\app\\Controllers\\AdminController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->admin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 16:22:37 --> Undefined property: App\Controllers\AdminController::$product
+in APPPATH\Controllers\AdminController.php on line 12.
+ 1 APPPATH\Controllers\AdminController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$product', 'C:\\laragon\\www\\laboratory3\\app\\Controllers\\AdminController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->admin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory3\\public\\index.php')
+CRITICAL - 2023-09-30 16:23:14 --> Undefined property: App\Controllers\AdminController::$product
+in APPPATH\Controllers\AdminController.php on line 12.
+ 1 APPPATH\Controllers\AdminController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AdminController::$product', 'C:\\laragon\\www\\laboratory3\\app\\Controllers\\AdminController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminController->admin()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\laboratory3\\public\\index.php')
